@@ -13,6 +13,7 @@ namespace ORM_Dapper
        public void CreateProduct(string name, double price, int categoryID);
         public Product GetProduct(int id);
         public void UpdateProduct(Product product);
+        public void DeleteProduct(int id);
         
     }
 }
